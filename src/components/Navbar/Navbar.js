@@ -40,15 +40,15 @@ const Navbar = () => {
           <option value="0" disabled>
             Select Network
           </option>
-          <option value="31337">Localhost</option>
-          <option value="0x5">Goerli</option>
-          <option value="0x13881">Mumbai</option>
+          <option value="31337">ADMIN</option>
+          <option value="0x5">USER 2</option>
+          <option value="0x13881">USER 1</option>
         </select>
       </div>
       <div className="nav__balance">
         {balance ? (
           <p className="nav__myBalance">
-            <small>My Balance : </small>
+            <small>My Balance :</small>
             {Number(balance).toFixed(4)}
           </p>
         ) : (
