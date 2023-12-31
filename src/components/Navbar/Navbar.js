@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="nav__name">
-        <img src={healthReport} alt="" width="40" height="40" />
+        <img src={healthReport} alt="" width="100" height="100" />
         <h2>D-Med Records</h2>
       </div>
       <div className="nav__networkSelector">

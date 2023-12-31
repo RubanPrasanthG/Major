@@ -40,6 +40,12 @@
     height: 2.5rem;
     margin: 2rem 4rem ;
     cursor: pointer;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.nav__balance-box:hover {
+    background-color: #00ff08;
+    border-color: black;
 }
 select option { color: white; }
 
